@@ -12,56 +12,57 @@
         <div class="container">
             <div class="display-div">
                 <div class="display">
-                    <p class="operation-display">0</p>
+                    <p class="expression"></p>
+                    <p class="operation-display"></p>
                 </div>
                 <div class="other">
                     <span class="functions">Delete</span>
-                    <button value=7 ></button>
-                    <span class="functions">Clear</span>
                     <button></button>
+                    <span class="functions">Clear</span>
+                    <button id="clearBtn"></button>
                 </div>
             </div>
             <div class="control-panel-div">
                 <div class="control-panel">
                     <div class="row first-row">
                         <span>7</span>
-                        <button value=7></button>
+                        <button value=7 class="numbers"></button>
                         <span>8</span>
-                        <button value=8></button>
+                        <button value=8 class="numbers"></button>
                         <span>9</span>
-                        <button value=9></button>
+                        <button value=9 class="numbers"></button>
                         <span class="functions">/</span>
-                        <button></button>
+                        <button value="/" class="operators"></button>
                     </div>
                     <div class="row second-row">
                         <span>4</span>
-                        <button value=4></button>
+                        <button value=4 class="numbers"></button>
                         <span>5</span>
-                        <button></button>
+                        <button value=5 class="numbers"></button>
                         <span>6</span>
-                        <button></button>
+                        <button value=6 class="numbers"></button>
                         <span class="functions">x</span>
-                        <button></button>
+                        <button value='*' class="operators"></button>
                     </div>
                     <div class="row third-row">
                         <span>1</span>
-                        <button></button>
+                        <button value=1 class="numbers"></button>
                         <span>2</span>
-                        <button></button>
+                        <button value=2 class="numbers"></button>
                         <span>3</span>
-                        <button></button>
-                        <span class="functions">—</span>
-                        <button></button>
+                        <button value=3 class="numbers"></button>
+                        <span class="functions">-</span>
+                        <button value='-' class="operators"></button>
                     </div>
                     <div class="row fourth-row">
                         <span>0</span>
-                        <button></button>
+                        <button value=0 class="numbers"></button>
                         <span class="dot">.</span>
-                        <button></button>
+                        <button value=. class="decimal"></button>
                         <span class="functions">=</span>
-                        <button></button>
+                        <button value = '=' class="equals"></button>
                         <span class="functions">+</span>
-                        <button></button>
+                        <button value="+" class="operators"></button>
                     </div>
                 </div>
 
