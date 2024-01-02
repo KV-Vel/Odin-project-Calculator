@@ -2,7 +2,6 @@ let firstNumber = '';
 let secondNumber = '';
 let operator = '';
 let result;
-expression.textContent = 0;
 let saveFullExpression;
 const controlPanel = document.querySelector('.control-panel');
 const display = document.querySelector('.operation-display');
@@ -10,6 +9,7 @@ const equals = document.querySelector('.equals');
 const deleteBtn = document.querySelector('#deleteBtn');
 const expression = document.querySelector('.expression');
 const clearBtn = document.querySelector('#clearBtn');
+expression.textContent = 0;
 
 controlPanel.addEventListener('click', displayControl) 
 function displayControl (e) {
